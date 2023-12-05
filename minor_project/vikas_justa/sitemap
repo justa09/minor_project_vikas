@@ -1,0 +1,64 @@
+## SiteMap
+
+# Authentication
+
+User
+	User Information
+	Resume if want work/job
+
+Freelancer
+	## Pages
+	Previus Projects done
+	Projects currently working on
+
+Auth
+	- signup
+	- login
+Home
+	- dashboard
+
+Recruiting
+	- Job Bases
+		Find jobs
+	- Project Bases
+		- find projects
+
+	
+	-- organisation
+		- number of employees and their information
+		- organisation information
+
+
+
+
+
+*******************************pages needed**************************************
+user profile
+	- type of user -> client/recruiter/freelancer/employee
+	for client
+		- email
+		- contact info 
+		- address
+		- more details
+
+	for recruiter
+		- organisation from which it belongs
+		- its details
+	
+	for freelancer
+		- education (optional)
+		- skill set
+		- hobbies
+		- previously done projects
+		- projects currently working on
+		- contact information
+
+	for employee
+		- resume pages
+		- education
+		- contact details
+	
+organisation
+	- organisation berief information
+	- departments of organisation
+	

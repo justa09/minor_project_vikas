@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("project_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    position: relative;
+    height: 100%;
+    /* background-color: aqua; */
+    color: white;
+}
+
+.inner-wrapper{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, .3);
+    height: 70vh;
+    padding: 2em;
+}
+
+.project-form-element{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+}
+
+.project-form-element:active .project-form-element:focus{
+    background-color: transparent;
+    outline: none;
+}
+

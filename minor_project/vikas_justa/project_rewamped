@@ -1,0 +1,16 @@
+career place
+
+    home
+    about us
+    companies under us
+    
+    when a user choose a cmpany
+        got "get hired button"
+        get hired page
+            - user information
+                name
+                email
+                phone number
+                resume
+    
+    

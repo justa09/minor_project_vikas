@@ -1,0 +1,34 @@
+{%extends 'base.html'%}
+
+{%block body%}
+<div class="container">
+    <div class="center" style="display: flex; align-items: center; justify-content: center;margin-top: 2em;">
+        <a href="#" style="margin: 0 2em;" class="btn btn-primary">Add An Employee</a>
+        <a href="#" style="margin: 0 2em;" class="btn btn-primary">Edit the list</a>
+    </div>
+    
+    
+    <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Employee name</th>
+            <th scope="col">Email address</th>
+            <th scope="col">date joined</th>
+            <th scope="col">staff?</th>
+          </tr>
+        </thead>
+        <tbody>
+          {%for user in user_list%}
+          <tr>
+              <th scope="row">{{user.first_name}} {{user.last_name}}</th>
+              <td>{{user.email}}</td>
+              <td>{{user.date_joined}}</td>
+              <td>{{user.is_staff}}</td>
+          </tr>
+          {%endfor%}
+        </tbody>
+      </table>
+      
+      
+</div>
+{%endblock%}

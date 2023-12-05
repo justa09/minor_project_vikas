@@ -1,0 +1,40 @@
+{% extends 'base.html'%}
+{%load static%}
+
+{%block body%}
+<div class="container">
+    <div class="center" style="display: flex; align-items: center;justify-content: center;flex-direction: column;">
+        <img src="{%static 'sample_company_profile_pic.jpg'%}" height="400" width="640">
+        <h1>PhantomBird</h1>
+        <div class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores corrupti minima nulla facilis repellat
+            eius, sint, consequatur enim odit possimus pariatur consequuntur aspernatur odio atque quisquam rem, ullam
+            magnam consectetur aliquam excepturi totam. Tenetur nam esse deserunt nemo soluta ipsa eligendi excepturi
+            minima ullam blanditiis corporis est debitis, maxime quod cupiditate cumque dolore cum veniam tempore beatae
+            corrupti hic? Consectetur modi sed et error, culpa repudiandae sapiente exercitationem quo. Assumenda
+            ducimus laudantium unde laboriosam modi aliquam rem. Alias necessitatibus sed architecto. Ullam deleniti
+            voluptas incidunt dignissimos maiores, voluptatem quisquam odio facilis, possimus aperiam numquam, quod quae
+            ab! Eos id nulla ex, ab saepe harum, nemo cupiditate consequatur culpa ad, sed odit vero voluptates tempore
+            adipisci facere eum! Accusamus eos placeat facere illo, inventore quidem officiis, tempore saepe facilis,
+            deserunt adipisci accusantium perspiciatis. Ullam commodi rerum, architecto asperiores ratione quos est, ab
+            explicabo consequuntur quidem enim vero voluptatum ipsam accusamus necessitatibus rem. Assumenda totam sint
+            odio consequatur vel hic adipisci nisi. In ut eum modi obcaecati ratione dolorum nemo maiores earum omnis
+            officia totam alias assumenda enim odit ducimus esse dolore, iure minus commodi aliquam. Repellendus omnis,
+            ipsam id sequi velit dolor sint fugiat iure eum doloremque voluptate culpa, eveniet perferendis.
+            <div class="founded">
+                <div>
+                    <strong>Founded: </strong>1920
+                </div>
+                <div>
+                    <strong>CEO: </strong>james wick
+                </div>
+                <div>
+                    <strong>HeadQuarters: </strong> Poland
+                </div>
+            </div>
+        </div>
+
+        <a type="button" class="btn btn-primary" href="/get-hired">Want To Get Hired?</a>
+    </div>
+</div>
+{%endblock body%}

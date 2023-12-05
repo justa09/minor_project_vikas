@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Hiring and Management System - Sitemap</title>
+</head>
+<body>
+    {% if user.is_authenticated%}
+    <h1>Logged in as - {{user}}</h1>
+    {% else %}
+    <h1>Not logged in</h1>
+    {% endif %}
+
+    <h4>Authentication</h4>
+    <div>
+        singup - /auth/signup
+    </div>
+    <div>
+        login - /auth/login
+    </div>
+    <h4>Project</h4>
+    <div>
+        post_project - /projects/post_project
+    </div>
+</body>
+</html>

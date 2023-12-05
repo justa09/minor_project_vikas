@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{%block body%}
+<div class="container">
+    <h1 style="text-align: center;">Register a Company</h1>
+    <form method="post" action="/register-company/register/">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Company Name:</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Company Description::</label>
+              <div class="mb-3">
+                <textarea class="form-control" name="desc" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Founded on: </label>
+            <input type="number" class="form-control" name="founded" id="exampleInputEmail1">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">CEO: </label>
+            <input type="text" name="ceo" class="form-control" id="exampleInputEmail1">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Headquarters: </label>
+            <input type="text" name="hq" class="form-control" id="exampleInputEmail1">
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-top: 1em;">Submit</button>
+    </form>
+</div>
+
+{%endblock%}

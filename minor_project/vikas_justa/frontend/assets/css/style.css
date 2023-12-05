@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.head-navbar ul{
+    display: flex;
+    justify-content: end;
+}
+
+header li{
+    list-style: none;
+    padding: 1.3em;
+}
+
+.register{
+    background-color: green;
+    color: white;
+    padding: .7em;
+    border-radius: 15px;
+}
+
+.main-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.website-info{
+    width: 900px;
+    text-align: center;
+}
+
+.main-wrapper h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.main-wrapper {
+    background: url("../canon-5158887_1920.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.services h1{
+    font-size: xx-large;
+    padding: 2em;
+}
+
+.custom-card{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.custom-card .custom-card-logo i {
+    height: 40;
+}
+
+
+
